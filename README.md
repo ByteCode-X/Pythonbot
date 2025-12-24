@@ -87,7 +87,7 @@ python bot.py
 
 ---
 
-## 🛡️ Moderation & Admin
+## 🛡️ Moderation & Admin [NOT WORKING]
 
 - Optional abuse detection
 - 3-warning rule supported
