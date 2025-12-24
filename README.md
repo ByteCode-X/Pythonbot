@@ -30,15 +30,17 @@ Pythonbot/
 ├── utils.py               # Utilities (logs, delays, memory)
 ├── .env                   # Sensitive Information
 ├── config.py              # Environment variable loader
+├── README.md              #The File Which YOU ARE READINGGGGGGGGGGGGGGGGG !
+├── LICENSE.txt            #The License 
 │
 ├── logs/
 │   ├── replied_messages.log
 │   ├── chat_history.json
+│   ├── lifecycle.log
 │   └── bot_lifecycle.log
 │
 ├── data/
-├── 
-└── README.md
+└── replied_log.json
 ```
 
 ---
