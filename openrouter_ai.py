@@ -19,7 +19,6 @@ MODEL = "openai/gpt-3.5-turbo"
 if not OPENROUTER_API_KEY:
     raise RuntimeError("❌ OPENROUTER_API_KEY not found in .env")
 
-# ✅ HEADERS DEFINED HERE
 headers = {
     "Authorization": f"Bearer {OPENROUTER_API_KEY}",
     "Content-Type": "application/json",
@@ -80,3 +79,4 @@ def ai_reply(prompt, retries=3):
             time.sleep(2)
 
     return None
+
