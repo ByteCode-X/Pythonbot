@@ -1,7 +1,7 @@
 # Instagram Group Chat Automation Bot 🤖
 
 A Python-based automation bot for Instagram group chats that uses **Selenium** for browser automation and **OpenRouter AI** for intelligent, human-like replies.
-The bot monitors group messages, responds to mentions, maintains chat context, avoids duplicate replies, and supports moderation logic.
+The bot monitors group messages, responds to mentions, maintains chat context, avoids duplicate replies.
 
 ---
 
@@ -10,8 +10,6 @@ The bot monitors group messages, responds to mentions, maintains chat context, a
 - ✅ Automated Instagram login using **session ID**
 - 💬 Reads latest group chat messages (raw text, emoji-safe)
 - 🤖 AI-powered replies via **OpenRouter API**
-- 🧠 Context-aware replies using chat history
-- 🚫 Prevents replying to the same message multiple times
 - 🎲 Random casual messages (low probability)
 - ⌨️ Human-like sending using **clipboard + ENTER**
 - 📝 Lifecycle logging (bot start/stop)
@@ -23,15 +21,14 @@ The bot monitors group messages, responds to mentions, maintains chat context, a
 ## 📁 Project Structure
 
 ```
-Instagram Advanced Bot/
+Pythonbot/
 │
 ├── bot.py                 # Main entry point
 ├── gc_bot.py              # Group chat logic
 ├── browser.py             # Browser & session handling
 ├── openrouter_ai.py       # AI integration
 ├── utils.py               # Utilities (logs, delays, memory)
-├── moderation.py          # Abuse detection (optional)
-├── admin.py               # Admin actions (kick/remove users)
+├── .env                   # Sensitive Information
 ├── config.py              # Environment variable loader
 │
 ├── logs/
@@ -40,7 +37,7 @@ Instagram Advanced Bot/
 │   └── bot_lifecycle.log
 │
 ├── data/
-├── .env
+├── 
 └── README.md
 ```
 
@@ -87,14 +84,6 @@ python bot.py
 
 ---
 
-## 🛡️ Moderation & Admin [NOT WORKING]
-
-- Optional abuse detection
-- 3-warning rule supported
-- Requires bot to be admin in group
-
----
-
 ## ⚠️ Disclaimer
 
 This project is for educational purposes only.
@@ -106,3 +95,4 @@ Use at your own risk.
 ## 👤 Author
 
 Developed by **Niraj**
+A Coding Enthusiast !
